@@ -1,5 +1,5 @@
 # Discord Activities Bot
-aaaaaaaaaaaaaaaaaaaaaaaaaaa
+[![Deploy](https://github.com/zaourzag/activities/actions/workflows/Deployment.yml/badge.svg)](https://github.com/zaourzag/activities/actions/workflows/Deployment.yml)
 A simple slash command bot for opening Discord voice channel activities, using [Cloudflare Workers](https://workers.cloudflare.com)
 
 **[Add the bot](https://discord.com/api/oauth2/authorize?client_id=819778342818414632&scope=bot%20applications.commands)**  
