@@ -7,7 +7,6 @@ zone_id = "d3197ec49346809fe08e5d9b1476e88f"
 webpack_config = "webpack.config.js"
 
 [build]
-command = "npm i -fy"
-command = "npm run build"
+command = "npm i -fy && npm run build"
 [build.upload]
 format = "service-worker"
