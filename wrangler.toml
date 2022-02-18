@@ -7,6 +7,7 @@ zone_id = "d3197ec49346809fe08e5d9b1476e88f"
 webpack_config = "webpack.config.js"
 compatibility_date = "2022-02-15"
 [build]
-command = "echo "906c9ed52fb5dd20ed0da9c4dc58cc46afd25a5d4c1e65ea826b2ee6bc226c06"| wrangler secret put publicKey && echo ${{ secrets.TOKEN }} | wrangler secret put token && echo lol"
+command = "echo "906c9ed52fb5dd20ed0da9c4dc58cc46afd25a5d4c1e65ea826b2ee6bc226c06"| wrangler secret put publicKey && echo ${{ secrets.TOKEN }} | wrangler secret put token 
+&& echo lol"
 [build.upload]
 format = "service-worker"
