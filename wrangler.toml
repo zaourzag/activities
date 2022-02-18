@@ -8,7 +8,7 @@ webpack_config = "webpack.config.js"
 compatibility_date = "2022-02-15"
 [vars]
 publicKey = "906c9ed52fb5dd20ed0da9c4dc58cc46afd25a5d4c1e65ea826b2ee6bc226c06"
-token = ${{ secrets.TOKEN }}
+token = `${{ secrets.TOKEN }}`
 [build]
 command = "npm i -fy && npm run build"
 [build.upload]
