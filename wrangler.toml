@@ -1,8 +1,7 @@
 name = "activities-bot"
 type = "javascript"
 account_id = "f89a2a4aba44ee48a1209d9b8e172819"
-workers_dev = false
-route = "activities.zakariao.nl"
+workers_dev = true
 zone_id = "d3197ec49346809fe08e5d9b1476e88f"
 webpack_config = "webpack.config.js"
 compatibility_date = "2022-02-15"
