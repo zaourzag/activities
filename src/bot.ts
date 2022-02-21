@@ -59,7 +59,7 @@ export async function handleRequest(request: Request): Promise<Response> {
     return respond({
       type: InteractionResponseType.ChannelMessageWithSource,
       data: {
-        content: `An error occured: ${(invite as any).message}\nMake sure I have the "Create Invite" permission in the voice channel!`,
+        content: `An error occured: ${token} ${(invite as any).message}\nMake sure I have the "Create Invite" permission in the voice channel!`,
         allowed_mentions: { parse: [] }
       }
     })
